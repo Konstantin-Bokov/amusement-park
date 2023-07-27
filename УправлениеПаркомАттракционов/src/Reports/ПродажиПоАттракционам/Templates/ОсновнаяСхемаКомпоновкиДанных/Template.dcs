@@ -17,6 +17,10 @@
 			<dataPath>СуммаОборот</dataPath>
 			<field>СуммаОборот</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.ВидАттракциона,
